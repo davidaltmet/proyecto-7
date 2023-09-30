@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Frontend Mentor | E-commerce product page</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="hero">
+        <div class="barra_nav_movil">
+          <img class="abrir_menu" src="./images/icon-menu.svg" />
+          <img class="cerrar_menu" src="./images/icon-close2.svg" />
+        </div>
+        <div class="hero_logo">
+          <img src="./images/logo.svg" />
+        </div>
+        <nav class="hero_nav">
+          <ul>
+            <li><a href="#">Collections</a></li>
+            <li><a href="#">Men</a></li>
+            <li><a href="#">Women</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="hero_car_usuario">
+          <div class="hero_logo_car">
+            <span class="contador">0</span>
+            <img src="./images/icon-cart.svg" />
+          </div>
+          <div class="hero_icon_usurio">
+            <img class="usuario" src="./images/image-avatar.png" />
+          </div>
+        </div>
+        <div class="compra">
+          <p>Card</p>
+          <span class="mensaje">Your Cart is Empty</span>
+          <div class="info_compra producto">
+            <div class="img_compra">
+              <img
+                class="compra_img"
+                src="./images/image-product-1-thumbnail.jpg"
+              />
+            </div>
+            <div class="detalle_producto">
+              <div class="nombre_pro">
+                <span class="nombre_producto"
+                  >Fall limited Edition sneakers</span
+                >
+              </div>
+              <div class="totales">
+                <span class="precio_producto">$0.00</span>
+                <span class="cantidad_producto">x 0</span>
+                <span class="total_producto">$0.00</span>
+              </div>
+              <div class="eliminar_productos">
+                <img class="eliminar_producto" src="./images/icon-delete.svg" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="tenis_container">
+        <div class="efecto_tenis" id="mi_slider">
+          <div class="efecto_tenis_articulos">
+            <div class="cerrar">
+              <img src="./images/icon-close.svg" />
+            </div>
+            <div class="img_efecto_tenis" id="img_efecto_tenis">
+              <img class="img img1" src="./images/image-product-1.jpg" />
+              <img class="img img2" src="./images/image-product-2.jpg" />
+              <img class="img img3" src="./images/image-product-3.jpg" />
+              <img class="img img4" src="./images/image-product-4.jpg" />
+            </div>
+            <div class="efecto_tenis_images">
+              <div class="ef_img ef_group2">
+                <img src="./images/image-product-1-thumbnail.jpg" />
+              </div>
+              <div class="ef_img ef_group2">
+                <img src="./images/image-product-2-thumbnail.jpg" />
+              </div>
+              <div class="ef_img ef_group2">
+                <img src="./images/image-product-3-thumbnail.jpg" />
+              </div>
+              <div class="ef_img ef_group2">
+                <img src="./images/image-product-4-thumbnail.jpg" />
+              </div>
+            </div>
+          </div>
+          <div class="flecha flecha1">
+            <img src="./images/icon-previous.svg" />
+          </div>
+          <div class="flecha flecha2">
+            <img src="./images/icon-next.svg" />
+          </div>
+        </div>
+      </div>
+      <main class="principal">
+        <div class="principal_articulos">
+          <div class="img_principal">
+            <img src="./images/image-product-1.jpg" />
+          </div>
+          <div class="principal_images">
+            <img
+              class="img_thumbnail"
+              src="./images/image-product-1-thumbnail.jpg"
+            />
+            <img
+              class="img_thumbnail"
+              src="./images/image-product-2-thumbnail.jpg"
+            />
+            <img
+              class="img_thumbnail"
+              src="./images/image-product-3-thumbnail.jpg"
+            />
+            <img
+              class="img_thumbnail"
+              src="./images/image-product-4-thumbnail.jpg"
+            />
+          </div>
+        </div>
+
+        <div class="carrito_info">
+          <div class="carrito_title">
+            <h3>Sneaker Company</h3>
+          </div>
+          <div class="carrito_subtitle">
+            <h1>Fall Limited Edition Sneakers</h1>
+          </div>
+          <div class="carrito_paragraph">
+            <p>
+              These low-profile sneakers are your perfect casual wear companion.
+              Featuring a durable rubber outer sole, they’ll withstand
+              everything the weather can offer.
+            </p>
+          </div>
+          <div class="carrito_precio">
+            <div class="precio">
+              <h2>$125.00</h2>
+              <h4>50%</h4>
+            </div>
+            <div class="descuento">
+              <span><s>$250.00</s></span>
+            </div>
+          </div>
+          <div class="carrito_comprar">
+            <div class="carrito_contador">
+              <div class="menos">
+                <img class="restar" src="./images/icon-minus.svg" />
+              </div>
+              <div class="carrito_num_actual">0</div>
+              <div class="mas">
+                <img class="sumar" src="./images/icon-plus.svg" />
+              </div>
+            </div>
+            <div class="carrito_agregar">
+              <div class="icon_cart2">
+                <img src="./images/icon-cart2.svg" />
+              </div>
+              <h2>Add to cart</h2>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script src="./js/images.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
+
+<!-- slick slider -->
